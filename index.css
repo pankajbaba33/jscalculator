@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+    position: fixed;
+    top: 30px;
+    left: 35%;
+}
+.input_item{
+    width: 500px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    background-color:white;
+    padding:10px;
+
+}
+#input{
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    width: 500px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+.input_item >.item{
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: brown;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    gap: 4px;
+}
+.container{
+    width: 500px;
+    text-align: center;
+    
+}
